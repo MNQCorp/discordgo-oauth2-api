@@ -1,0 +1,14 @@
+{
+  client_id: "",
+  client_secret: "",
+  redirect_uri: "http://localhost:8080/callback",
+  scopes: ["identify"],
+  frontend_redirect: "http://localhost:3000"
+}
+
+// rename configexample.json5 to config.json5
+// and fill in the client_id and client_secret with your own values
+
+// have a nice day
+
+// by Manukq

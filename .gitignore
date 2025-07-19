@@ -1,0 +1,75 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go toolchain
+#
+# Compiled binaries, typically in the current directory or a `bin/` directory
+# for larger projects.
+#
+# For example:
+#   go build -o myprogram
+#   go install myprogram
+#
+# This will create `myprogram` or `myprogram.exe` in the current directory
+# or in `$GOPATH/bin` or `$GOBIN`.
+#
+# If you are using Go modules, the compiled binary will be in the current directory
+# or a `bin/` directory within your project.
+#
+# Examples:
+#   myprogram
+#   myprogram.exe
+#   bin/myprogram
+#   bin/myprogram.exe
+#
+# You might need to adjust this based on your project's build process.
+#
+# Common output locations:
+#   /bin/
+#   /build/
+#   /dist/
+#
+# If you place your binaries directly in the project root, you might need to
+# explicitly ignore them. For example:
+#   myprogram
+#   myprogram.exe
+#   main
+#   main.exe
+
+# Dependency directories (Go modules)
+#
+# If you are using Go modules, these directories are typically not committed.
+#
+# Example:
+#   vendor/
+#
+# If you are not using modules, or if you explicitly want to commit vendor,
+# you can remove or comment out this line.
+vendor/
+
+# Environment variables
+.env
+.env.*
+config.json5
+config.json
+
+# Temporary files
+#
+# Editor specific temporary files, build artifacts, etc.
+#
+# Examples:
+#   *~
+#   *.bak
+#   *.swp
+#   *.tmp
+#
+*~
+*.bak
+*.swp
+*.tmp
